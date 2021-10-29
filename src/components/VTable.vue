@@ -14,7 +14,7 @@
     <tbody>
       <tr
         v-for="(row, rowIndex) in rows"
-        :key="row._id"
+        :key="rowIndex"
         class="transition-colors hover:bg-gray-400 cursor-pointer"
         :class="[{ 'bg-gray-200': rowIndex % 2 === 0 }]"
       >
